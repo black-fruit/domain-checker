@@ -81,7 +81,7 @@
 
     <?php
     if (isset($_POST['domain'])) {
-        $api_key = "7M7P8E9R6L8p7i8z37P9I7o8y617d6S6Z6e6w8s7Q8l8s8Y";
+        $api_key = "api key";
         $command = "search";
         $domain = $_POST['domain'];
         $url = "https://api.dynadot.com/api3.json?key=$api_key&command=$command&domain0=$domain";
